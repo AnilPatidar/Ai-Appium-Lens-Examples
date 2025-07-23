@@ -39,8 +39,6 @@ public class DriverManager {
 
                 androidCaps.setCapability("appium:autoGrantPermissions", "true");
                 androidCaps.setCapability("appium:ignoreHiddenApiPolicyError", "true");
-                //androidCaps.setCapability("appPackage", appPackage);
-               // androidCaps.setCapability("appActivity",  "com.games24x7.coregame.common.deeplink.DeepLinkActivity");
                 androidCaps.setCapability("appium:newCommandTimeout", 600);
 
                 androidCaps.setCapability("appium:intercept", "true");
@@ -89,8 +87,6 @@ public class DriverManager {
                 androidCaps.setCapability("appium:noReset", "true");
                 androidCaps.setCapability("appium:autoGrantPermissions", "true");
                 androidCaps.setCapability("appium:ignoreHiddenApiPolicyError", "true");
-                //androidCaps.setCapability("appPackage", "com.my11circle.android.stage");
-                //androidCaps.setCapability("appActivity",  "com.games24x7.coregame.common.deeplink.DeepLinkActivity");
                 androidCaps.setCapability("appium:newCommandTimeout", 600);
 
                 androidCaps.setCapability("appium:intercept", "true");
