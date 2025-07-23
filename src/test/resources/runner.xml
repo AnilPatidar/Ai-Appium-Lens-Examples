@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods">
+    <test thread-count="5" name="S2E2-Appium-2.0-Java-Mobile-Automation-main">
+        <classes>
+            <class name="tests.AI_Test_Android"/>
+        </classes>
+    </test> <!-- S2E2-Appium-2.0-Java-Mobile-Automation-main -->
+</suite> <!-- Default Suite -->
