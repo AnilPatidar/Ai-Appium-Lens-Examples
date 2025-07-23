@@ -48,6 +48,7 @@ public class AI_Test_Android extends DriverManager {
     public void androidAskAndAIClick() throws MalformedURLException {
 
         //TODO- Change device id to your device id
+
         deviceId.set("EQJZH6VONZA6TSWW");
         setDriver("android");
 
